@@ -5,6 +5,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     baseURL: "https://lazeezbox.com",
     headers: {
       "Content-Type": "application/json",
+      //Hell owrlrd
     },
     withCredentials: true, // Ensure cookies are sent
   });
